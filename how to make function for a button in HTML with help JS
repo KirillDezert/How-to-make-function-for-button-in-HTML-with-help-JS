@@ -7,3 +7,7 @@ to be honest we can add function for a button like this:
         document.getElementById("company").innerHTML="Hello and Welcome to the article where you can find out some about our company And yeah we just doing different hard works with getting process of various visa and also helping with choose process of the best place for get rest"
     }
 </script>
+and some information about this part of my code like "<script></script>" with this attribute we can use JS right on HTML page
+and also adding different function for our website
+what about this part "<button onclick="MyFunction()">company</button>" Here we already created a button and added function like "onclick"
+and about <p id="company"></p> here we just specified the name of this button in order to will add other function which also will be necessary 
