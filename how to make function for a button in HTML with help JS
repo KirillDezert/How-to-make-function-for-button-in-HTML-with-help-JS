@@ -1,0 +1,9 @@
+to be honest we can add function for a button like this:
+<p>here there is information about our company</p>
+<button onclick="myFunction()">company</button>
+<p id="company"></p>
+<script>
+    function myFunction() {
+        document.getElementById("company").innerHTML="Hello and Welcome to the article where you can find out some about our company And yeah we just doing different hard works with getting process of various visa and also helping with choose process of the best place for get rest"
+    }
+</script>
