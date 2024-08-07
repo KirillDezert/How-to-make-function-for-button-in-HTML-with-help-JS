@@ -11,3 +11,10 @@ and some information about this part of my code like "<script></script>" with th
 and also adding different function for our website
 what about this part "<button onclick="MyFunction()">company</button>" Here we already created a button and added function like "onclick"
 and about <p id="company"></p> here we just specified the name of this button in order to will add other function which also will be necessary 
+Let's I will add here some new details, in order to add this function we also can do like this:const buttonElem = document.getElementById('Visa')
+
+let onButtonClick = function() {
+    buttonElem.textContent = 'Here will be different about visa and different countries which you can visit, then lets list some countries where you can drive for get rest if youre Russian And first our country will be Turkey because this country has really wonderful relationship with Russia and also doesnt has visa with Russia and you can move to there very easy'};
+
+buttonElem.addEventListener('click', onButtonClick)
+and this code we should write inside the file of JavaScript which linked to file HTML
